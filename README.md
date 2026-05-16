@@ -1,16 +1,16 @@
-## Aborted Baby Coin
+## Abortion Baby Coin
 
-AbortedCoin (ABORTED) is a state-of-the-art cryptocurrency based on Arqma and Evolution projects. AbortedCoin is well suited for CPU mining based on the randomARQ hash algorithm.
+AbortionCoin (Abortion) is a state-of-the-art cryptocurrency based on Arqma and Evolution projects. AbortionCoin is well suited for CPU mining based on the randomARQ hash algorithm.
 
-<img src="https://AbortedCoin.dev/AbortedCoin_logo_label-modified.png" alt="AbortedCoin" width="400"/>
+<img src="https://AbortionCoin.dev/AbortionCoin_logo_label-modified.png" alt="AbortionCoin" width="400"/>
 
-Copyright (c) 2021-2022 The AbortedCoin Project.
+Copyright (c) 2021-2022 The AbortionCoin Project.
 
 ## Install
 
 ### Release
 
-Go to [github.com/AbortedCoin-project/AbortedCoin/releases/latest](https://github.com/AbortedCoin-project/AbortedCoin/releases/latest) and download the relevant archive for your system.
+Go to [github.com/AbortionCoin-project/AbortionCoin/releases/latest](https://github.com/AbortionCoin-project/AbortionCoin/releases/latest) and download the relevant archive for your system.
 
 ### From source
 
@@ -19,19 +19,19 @@ Dependencies for Debian / Ubuntu:
     sudo apt update && sudo apt -y install build-essential cmake libboost-all-dev miniupnpc libunbound-dev graphviz doxygen libunwind8-dev pkg-config libssl-dev libzmq3-dev libsodium-dev libhidapi-dev libnorm-dev libusb-1.0-0-dev libpgm-dev
 
 
-Clone the AbortedCoin git repository and compile on your own system:
+Clone the AbortionCoin git repository and compile on your own system:
 
-    git clone --recursive https://github.com/AbortedCoin-project/AbortedCoin
+    git clone --recursive https://github.com/AbortionCoin-project/AbortionCoin
 
-    cd AbortedCoin
+    cd AbortionCoin
 
     make
     
 Alternatively:
 
-    git clone https://github.com/AbortedCoin-project/AbortedCoin
+    git clone https://github.com/AbortionCoin-project/AbortionCoin
     
-    cd AbortedCoin
+    cd AbortionCoin
     
     mkdir build && mv build
     
@@ -45,11 +45,11 @@ Alternatively:
 
 To run a full node:
 
-    ./AbortedCoind --detach
+    ./AbortionCoind --detach
 
 To create and manage a wallet:
 
-    ./AbortedCoin-wallet-cli
+    ./AbortionCoin-wallet-cli
 
 ## Mining
 
@@ -59,22 +59,22 @@ We recommend xmrig mining software.
 
 BABY can be typically mined with:
 
-    ./xmrig --url AbortedCoin.multi-pool.net:3333 --user your_AbortedCoin_address --algo rx/arq
+    ./xmrig --url AbortionCoin.multi-pool.net:3333 --user your_AbortionCoin_address --algo rx/arq
 
-- Pool 1: [https://AbortedCoin.multi-pool.net](https://AbortedCoin.multi-pool.net)
-- Pool 2: [https://pool.AbortedCoin.dev](https://pool.AbortedCoin.dev)
+- Pool 1: [https://AbortionCoin.multi-pool.net](https://AbortionCoin.multi-pool.net)
+- Pool 2: [https://pool.AbortionCoin.dev](https://pool.AbortionCoin.dev)
 
-See [miningpoolstats](https://miningpoolstats.stream/AbortedCoin) for more pools.
+See [miningpoolstats](https://miningpoolstats.stream/AbortionCoin) for more pools.
 
 ### Via daemon
 
 Daemon only:
 
-    ./AbortedCoind --bg-mining-enable --start-mining babyvdduEFcd4b2gfTMdBfeqAZziHWH986zGizDUnQCk3xYVVidmnref9hmFK2xcU1im7vobotZaBazitTdjca4FTCW4kAFpWBL --bg-mining-ignore-battery --mining-threads 8 --detach
+    ./AbortionCoind --bg-mining-enable --start-mining babyvdduEFcd4b2gfTMdBfeqAZziHWH986zGizDUnQCk3xYVVidmnref9hmFK2xcU1im7vobotZaBazitTdjca4FTCW4kAFpWBL --bg-mining-ignore-battery --mining-threads 8 --detach
 
 Daemon + external miner (xmrig):
 
-    ./AbortedCoind --detach
+    ./AbortionCoind --detach
     
     ./xmrig --url 127.0.0.1:51022 -u babyvdduEFcd4b2gfTMdBfeqAZziHWH986zGizDUnQCk3xYVVidmnref9hmFK2xcU1im7vobotZaBazitTdjca4FTCW4kAFpWBL -a rx/arq --daemon
 
@@ -82,27 +82,27 @@ Daemon + external miner (xmrig):
 
 ### General and social:
 
-- Web: [AbortedCoin.dev](https://AbortedCoin.dev/)
-- GitHub: [AbortedCoin-project](https://github.com/AbortedCoin-project/)
-- Discord: [AbortedCoin-discord](https://discord.gg/pJdQsqjSU3)
-- Telegram: [AbortedCoin-telegram](https://t.me/+MsCJxVm33dw0ZjE0)
-- Twitter: [@AbortedCoin_dev](https://twitter.com/AbortedCoin_dev)
-- Reddit: [r/AbortedCoin](https://www.reddit.com/r/AbortedCoin)
-- BitcoinTalk: [AbortedCoin-bitcointalk](https://bitcointalk.org/index.php?topic=5378676.0)
+- Web: [AbortionCoin.dev](https://AbortionCoin.dev/)
+- GitHub: [AbortionCoin-project](https://github.com/AbortionCoin-project/)
+- Discord: [AbortionCoin-discord](https://discord.gg/pJdQsqjSU3)
+- Telegram: [AbortionCoin-telegram](https://t.me/+MsCJxVm33dw0ZjE0)
+- Twitter: [@AbortionCoin_dev](https://twitter.com/AbortionCoin_dev)
+- Reddit: [r/AbortionCoin](https://www.reddit.com/r/AbortionCoin)
+- BitcoinTalk: [AbortionCoin-bitcointalk](https://bitcointalk.org/index.php?topic=5378676.0)
 
-- Blockchain explorer: [blockchain.AbortedCoin.dev](https://blockchain.AbortedCoin.dev)
+- Blockchain explorer: [blockchain.AbortionCoin.dev](https://blockchain.AbortionCoin.dev)
 
 ### Binaries
 
-- Daemon + CLI: [AbortedCoin-latest](https://github.com/AbortedCoin-project/AbortedCoin/releases/latest)
-- Wallet GUI: [AbortedCoin-electrum-latest](https://github.com/AbortedCoin-project/AbortedCoin-electrum/releases/latest)
+- Daemon + CLI: [AbortionCoin-latest](https://github.com/AbortionCoin-project/AbortionCoin/releases/latest)
+- Wallet GUI: [AbortionCoin-electrum-latest](https://github.com/AbortionCoin-project/AbortionCoin-electrum/releases/latest)
 
 ### Development resources
 
-- Full node: [AbortedCoin-project/AbortedCoin](https://github.com/AbortedCoin-project/AbortedCoin)
-- Wallet: [AbortedCoin-project/AbortedCoin-electrum/](https://github.com/AbortedCoin-project/AbortedCoin-electrum/)
-- Explorer: [AbortedCoin-project/AbortedCoin-blockchain/](https://github.com/AbortedCoin-project/AbortedCoin-blockchain/)
-- Pool: [AbortedCoin-project/AbortedCoin-pool/](https://github.com/AbortedCoin-project/AbortedCoin-pool/)
+- Full node: [AbortionCoin-project/AbortionCoin](https://github.com/AbortionCoin-project/AbortionCoin)
+- Wallet: [AbortionCoin-project/AbortionCoin-electrum/](https://github.com/AbortionCoin-project/AbortionCoin-electrum/)
+- Explorer: [AbortionCoin-project/AbortionCoin-blockchain/](https://github.com/AbortionCoin-project/AbortionCoin-blockchain/)
+- Pool: [AbortionCoin-project/AbortionCoin-pool/](https://github.com/AbortionCoin-project/AbortionCoin-pool/)
 
 ### Exchanges
 
@@ -113,8 +113,8 @@ Daemon + external miner (xmrig):
 
 ### Mining pools
 
-- Pool 1: [multi-pool.net](https://AbortedCoin.multi-pool.net) (developer pool)
-- Pool 2: [AbortedCoin.dev](https://pool.AbortedCoin.dev) (developer pool)
+- Pool 1: [multi-pool.net](https://AbortionCoin.multi-pool.net) (developer pool)
+- Pool 2: [AbortionCoin.dev](https://pool.AbortionCoin.dev) (developer pool)
 - Pool 3: [fumetonjoint.com](https://baby.fumetonjoint.com/) (developer pool)
 - Pool 4: [walemo.cc](https://baby.walemo.cc/)
 - Pool 5: [foxpool.ru](https://foxpool.ru/#baby)
@@ -122,12 +122,12 @@ Daemon + external miner (xmrig):
 
 ### Others
 
-- Ref. 1: [miningpoolstats](https://miningpoolstats.stream/AbortedCoin)
+- Ref. 1: [miningpoolstats](https://miningpoolstats.stream/AbortionCoin)
 - Ref. 2: [coinsniper](https://coinsniper.net/coin/24286)
 - Ref. 3: [cointomine](https://cointomine.today/calculator/coin/BABY-RANDOMARQ/)
-- Ref. 4: [coinpaprika](https://coinpaprika.com/coin/baby-AbortedCoin/)
-- Ref. 5: [coinpare](https://coinpare.io/coin/baby-AbortedCoin)
-- Ref. 6: [Bitcourier](https://bitcourier.co.uk/news/AbortedCoin-interview)
+- Ref. 4: [coinpaprika](https://coinpaprika.com/coin/baby-AbortionCoin/)
+- Ref. 5: [coinpare](https://coinpare.io/coin/baby-AbortionCoin)
+- Ref. 6: [Bitcourier](https://bitcourier.co.uk/news/AbortionCoin-interview)
 
 <details>
     <summary>More</summary>
@@ -136,21 +136,21 @@ Daemon + external miner (xmrig):
 
 ## Introduction
 
-AbortedCoin (BABY) is a private, secure, untraceable, decentralised digital currency. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
+AbortionCoin (BABY) is a private, secure, untraceable, decentralised digital currency. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
 
-**Privacy:** AbortedCoin uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
+**Privacy:** AbortionCoin uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
 
 **Security:** Using the power of a distributed peer-to-peer consensus network, every transaction on the network is cryptographically secured. Individual wallets have a 25 word mnemonic seed that is only displayed once, and can be written down to backup the wallet. Wallet files are encrypted with a passphrase to ensure they are useless if stolen.
 
-**Untraceability:** By taking advantage of ring signatures, a special property of a certain type of cryptography, AbortedCoin is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
+**Untraceability:** By taking advantage of ring signatures, a special property of a certain type of cryptography, AbortionCoin is able to ensure that transactions are not only untraceable, but have an optional measure of ambiguity that ensures that transactions cannot easily be tied back to an individual user or computer.
 
 ## SSL
 
-As a network, AbortedCoin supports complete, cryptographically secured connections at all levels. This includes, but is not limited to AbortedCoin Network Nodes (Full nodes), Remote Nodes and all wallets - CLI and GUI for desktop, and Android and iOS [ iOS is under development].    
+As a network, AbortionCoin supports complete, cryptographically secured connections at all levels. This includes, but is not limited to AbortionCoin Network Nodes (Full nodes), Remote Nodes and all wallets - CLI and GUI for desktop, and Android and iOS [ iOS is under development].    
 
-AbortedCoin Network will be consistently implementing the highest security protocols to achieve the greatest privacy for all transactions, as well as all communications made over the AbortedCoin Network.
+AbortionCoin Network will be consistently implementing the highest security protocols to achieve the greatest privacy for all transactions, as well as all communications made over the AbortionCoin Network.
 
-The use of SSL connections means that there will not be any possibility to use the AbortedCoin Network with unsecured or tampered connections (daemons), and that your privacy will remain a feature built in a protocol level.
+The use of SSL connections means that there will not be any possibility to use the AbortionCoin Network with unsecured or tampered connections (daemons), and that your privacy will remain a feature built in a protocol level.
 
  * Below is an example how to generate SSL Keys with openssl
 
@@ -163,11 +163,11 @@ The use of SSL connections means that there will not be any possibility to use t
 
 ## About this project
 
-This is the core implementation of AbortedCoin. It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of AbortedCoin that uses the protocol and network in a compatible manner.
+This is the core implementation of AbortionCoin. It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of AbortionCoin that uses the protocol and network in a compatible manner.
 
 As with many development projects, the repository on Github is considered to be the "staging" area for the latest changes. Before changes are merged into that branch on the main repository, they are tested by individual developers in their own branches, submitted as a pull request, and then subsequently tested by contributors who focus on testing and code reviews. That having been said, the repository should be carefully considered before using it in a production environment, unless there is a patch in the repository for a particular show-stopping issue you are experiencing. It is generally a better idea to use a tagged release for stability.
 
-**Anyone is welcome to contribute to AbortedCoin's codebase!** If you have a fix or code change, feel free to submit it as a pull request directly to the "master" branch. In cases where the change is relatively small or does not affect other parts of the codebase it may be merged in immediately by any one of the collaborators. On the other hand, if the change is particularly large or complex, it is expected that it will be discussed at length either well in advance of the pull request being submitted, or even directly on the pull request.
+**Anyone is welcome to contribute to AbortionCoin's codebase!** If you have a fix or code change, feel free to submit it as a pull request directly to the "master" branch. In cases where the change is relatively small or does not affect other parts of the codebase it may be merged in immediately by any one of the collaborators. On the other hand, if the change is particularly large or complex, it is expected that it will be discussed at length either well in advance of the pull request being submitted, or even directly on the pull request.
 
 ## License
 
@@ -177,7 +177,7 @@ See [LICENSE](LICENSE).
 
 If you want to help out, see [CONTRIBUTING](CONTRIBUTING.md) for a set of guidelines.
 
-## Compiling AbortedCoin from source
+## Compiling AbortionCoin from source
 
 ## Build
 
@@ -238,20 +238,20 @@ Install all dependencies at once on OSX:
 
 ### Cloning the repository
 
-`$ git clone https://github.com/AbortedCoin-project/AbortedCoin`
+`$ git clone https://github.com/AbortionCoin-project/AbortionCoin`
 
-`$ cd AbortedCoin`    
+`$ cd AbortionCoin`    
 
 ### Build instructions
 
-AbortedCoin uses the CMake build system and a top-level [Makefile](Makefile) that invokes cmake commands as needed.
+AbortionCoin uses the CMake build system and a top-level [Makefile](Makefile) that invokes cmake commands as needed.
 
 #### On Linux and OS X
 
 * Install the dependencies
 * Change to the root of the source code directory and build:
 
-        cd AbortedCoin
+        cd AbortionCoin
 
         make
 
@@ -265,9 +265,9 @@ AbortedCoin uses the CMake build system and a top-level [Makefile](Makefile) tha
 
 * The resulting executables can be found in `./bin`
 
-* Add `PATH="$PATH:$HOME/AbortedCoin/bin"` to `.profile`
+* Add `PATH="$PATH:$HOME/AbortionCoin/bin"` to `.profile`
 
-* Run AbortedCoin with `./AbortedCoind --detach`
+* Run AbortionCoin with `./AbortionCoind --detach`
 
 * **Optional**: build and run the test suite to verify the binaries:
 
@@ -295,7 +295,7 @@ Tested on a Raspberry Pi Zero with a clean install of minimal Raspbian Stretch (
 
 * `apt-get update && apt-get upgrade` to install all of the latest software
 
-* Install the dependencies for AbortedCoin from the 'Debian' column in the table above.
+* Install the dependencies for AbortionCoin from the 'Debian' column in the table above.
 
 * Increase the system swap size:
 ```
@@ -304,10 +304,10 @@ Tested on a Raspberry Pi Zero with a clean install of minimal Raspbian Stretch (
 	CONF_SWAPSIZE=1024  
 	sudo /etc/init.d/dphys-swapfile start  
 ```
-* Clone AbortedCoin and checkout most recent release version:
+* Clone AbortionCoin and checkout most recent release version:
 ```
-    git clone https://github.com/AbortedCoin-project/AbortedCoin.git
-    cd AbortedCoin
+    git clone https://github.com/AbortionCoin-project/AbortionCoin.git
+    cd AbortionCoin
 
 ```
 * Build:
@@ -318,15 +318,15 @@ Tested on a Raspberry Pi Zero with a clean install of minimal Raspbian Stretch (
 
 * The resulting executables can be found in `./bin`
 
-* Add `PATH="$PATH:$HOME/AbortedCoin/bin"` to `.profile`
+* Add `PATH="$PATH:$HOME/AbortionCoin/bin"` to `.profile`
 
-* Run AbortedCoin with `./AbortedCoind --detach`
+* Run AbortionCoin with `./AbortionCoind --detach`
 
 * You may wish to reduce the size of the swap file after the build has finished, and delete the boost directory from your home directory
 
 #### *Note for Raspbian Jessie users:*
 
-If you are using the older Raspbian Jessie image, compiling AbortedCoin is a bit more complicated. The version of Boost available in the Debian Jessie repositories is too old to use with AbortedCoin, and thus you must compile a newer version yourself. The following explains the extra steps, and has been tested on a Raspberry Pi 2 with a clean install of minimal Raspbian Jessie.
+If you are using the older Raspbian Jessie image, compiling AbortionCoin is a bit more complicated. The version of Boost available in the Debian Jessie repositories is too old to use with AbortionCoin, and thus you must compile a newer version yourself. The following explains the extra steps, and has been tested on a Raspberry Pi 2 with a clean install of minimal Raspbian Jessie.
 
 * As before, `apt-get update && apt-get upgrade` to install all of the latest software, and increase the system swap size
 
@@ -337,7 +337,7 @@ If you are using the older Raspbian Jessie image, compiling AbortedCoin is a bit
 	sudo /etc/init.d/dphys-swapfile start  
 ```
 
-* Then, install the dependencies for AbortedCoin except `libunwind` and `libboost-all-dev`
+* Then, install the dependencies for AbortionCoin except `libunwind` and `libboost-all-dev`
 
 * Install the latest version of boost (this may first require invoking `apt-get remove --purge libboost*` to remove a previous version if you're not using a clean install):
 ```
@@ -354,7 +354,7 @@ If you are using the older Raspbian Jessie image, compiling AbortedCoin is a bit
 ```
 * Wait ~4 hours
 
-* From here, follow the [general Raspberry Pi instructions](#on-the-raspberry-pi) from the "Clone AbortedCoin and checkout most recent release version" step.
+* From here, follow the [general Raspberry Pi instructions](#on-the-raspberry-pi) from the "Clone AbortionCoin and checkout most recent release version" step.
 
 #### On Windows:
 
@@ -390,13 +390,13 @@ application.
 
 **Building**
 
-* Download AbortedCoin with command:
+* Download AbortionCoin with command:
 
-        git clone https://github.com/AbortedCoin-project/AbortedCoin
+        git clone https://github.com/AbortionCoin-project/AbortionCoin
 
 * Change branch to last Release:
 
-        cd AbortedCoin
+        cd AbortionCoin
 
 * If you are on a 64-bit system, run:
 
@@ -410,13 +410,13 @@ application.
 
 * The resulting executables can be found in `build/debug/bin`
 
-*** AbortedCoin does Not support 32-bit Windows anymore ***
+*** AbortionCoin does Not support 32-bit Windows anymore ***
 
 ### On FreeBSD:
 
-The project can be built from scratch by following instructions for Linux above. If you are running AbortedCoin in a jail you need to add the flag: `allow.sysvipc=1` to your jail configuration, otherwise lmdb will throw the error message: `Failed to open lmdb environment: Function not implemented`.
+The project can be built from scratch by following instructions for Linux above. If you are running AbortionCoin in a jail you need to add the flag: `allow.sysvipc=1` to your jail configuration, otherwise lmdb will throw the error message: `Failed to open lmdb environment: Function not implemented`.
 
-We expect to add AbortedCoin into the ports tree in the near future, which will aid in managing installations using ports or packages.
+We expect to add AbortionCoin into the ports tree in the near future, which will aid in managing installations using ports or packages.
 
 ### On OpenBSD:
 
@@ -431,7 +431,7 @@ The doxygen and graphviz packages are optional and require the xbase set.
 The Boost package has a bug that will prevent librpc.a from building correctly. In order to fix this, you will have to Build boost yourself from scratch. Follow the directions here (under "Building Boost"):
 https://github.com/bitcoin/bitcoin/blob/master/doc/build-openbsd.md
 
-You will have to add the serialization, date_time, and regex modules to Boost when building as they are needed by AbortedCoin.
+You will have to add the serialization, date_time, and regex modules to Boost when building as they are needed by AbortionCoin.
 
 To build: `env CC=egcc CXX=eg++ CPP=ecpp DEVELOPER_LOCAL_TOOLS=1 BOOST_ROOT=/path/to/the/boost/you/built make release-static-64`
 
@@ -506,7 +506,7 @@ cmake ..
 doas make install
 ```
 
-Build AbortedCoin: `env DEVELOPER_LOCAL_TOOLS=1 BOOST_ROOT=/usr/local make release-static`
+Build AbortionCoin: `env DEVELOPER_LOCAL_TOOLS=1 BOOST_ROOT=/usr/local make release-static`
 
 ### On Solaris:
 
@@ -522,11 +522,11 @@ Then you can run make as usual.
 ### On Linux for Android (using docker):
 
         # Build image
-        docker build -f utils/build_scripts/android32.Dockerfile -t AbortedCoin-android .
+        docker build -f utils/build_scripts/android32.Dockerfile -t AbortionCoin-android .
         # Create container
-        docker create -it --name AbortedCoin-android AbortedCoin-android bash
+        docker create -it --name AbortionCoin-android AbortionCoin-android bash
         # Get binaries
-        docker cp AbortedCoin-android:/opt/android/AbortedCoin/build/release/bin .
+        docker cp AbortionCoin-android:/opt/android/AbortionCoin/build/release/bin .
 
 ### Building portable statically linked binaries
 
@@ -540,7 +540,7 @@ By default, in either dynamically or statically linked builds, binaries target t
 
 ### Cross Compiling
 
-You can also cross-compile AbortedCoin static binaries on Linux for Windows and macOS with the `depends` system.
+You can also cross-compile AbortionCoin static binaries on Linux for Windows and macOS with the `depends` system.
 
 * ```make depends target=x86_64-linux-gnu``` for 64-bit linux binaries.
 * ```make depends target=x86_64-w64-mingw32``` for 64-bit windows binaries. Requires: python3 g++-mingw-w64-x86-64 wine1.6 bc
@@ -552,26 +552,26 @@ You can also cross-compile AbortedCoin static binaries on Linux for Windows and 
 
 * ```git clone -b arqma https://github.com/malbit/MacOSX-SDKs.git contrib/depends/SDKs ```    
 
-You can download SDK at https://github.com/malbit/MacOSX-SDKs/releases/download/MacOSX10.11.sdk.AbortedCoin/MacOSX10.11.sdk.tar.gz and unpack it and put to contrib/depends/SDKs    
+You can download SDK at https://github.com/malbit/MacOSX-SDKs/releases/download/MacOSX10.11.sdk.AbortionCoin/MacOSX10.11.sdk.tar.gz and unpack it and put to contrib/depends/SDKs    
 
 The required packages are the names for each toolchain on apt. Depending on your OS Distribution, they may have different names.
 
-Using `depends` might also be easier to compile AbortedCoin on Windows than using MSYS. Activate Windows Subsystem for Linux (WSL) with a distribution (for example Ubuntu), install the apt build-essentials and follow the `depends` steps as stated above.
+Using `depends` might also be easier to compile AbortionCoin on Windows than using MSYS. Activate Windows Subsystem for Linux (WSL) with a distribution (for example Ubuntu), install the apt build-essentials and follow the `depends` steps as stated above.
 
 ### Compability with older Linux Versions < GLIBC_2.25
 
 * ```make depends-compat target=x86_64-linux-gnu``` for 64-bit linux binaries.
 
 
-## Running AbortedCoind
+## Running AbortionCoind
 
 The build places the binary in `bin/` sub-directory within the build directory
 from which cmake was invoked (repository root by default). To run in
 foreground:
 
-    ./bin/AbortedCoind
+    ./bin/AbortionCoind
 
-To list all available options, run `./bin/AbortedCoind --help`.  Options can be
+To list all available options, run `./bin/AbortionCoind --help`.  Options can be
 specified either on the command line or in a configuration file passed by the
 `--config-file` argument.  To specify an option in the configuration file, add
 a line with the syntax `argumentname=value`, where `argumentname` is the name
@@ -579,17 +579,17 @@ of the argument without the leading dashes, for example `log-level=1`.
 
 To run in background:
 
-    ./bin/AbortedCoind --log-file AbortedCoind.log --detach
+    ./bin/AbortionCoind --log-file AbortionCoind.log --detach
 
 To run as a systemd service, copy
-[AbortedCoind.service](utils/systemd/AbortedCoind.service) to `/etc/systemd/system/` and
-[AbortedCoind.conf](utils/conf/AbortedCoind.conf) to `/etc/`. The [example
-service](utils/systemd/AbortedCoind.service) assumes that the user `AbortedCoin` exists
+[AbortionCoind.service](utils/systemd/AbortionCoind.service) to `/etc/systemd/system/` and
+[AbortionCoind.conf](utils/conf/AbortionCoind.conf) to `/etc/`. The [example
+service](utils/systemd/AbortionCoind.service) assumes that the user `AbortionCoin` exists
 and its home is the data directory specified in the [example
-config](utils/conf/AbortedCoind.conf).
+config](utils/conf/AbortionCoind.conf).
 
 If you're on Mac, you may need to add the `--max-concurrency 1` option to
-AbortedCoin-wallet-cli, and possibly AbortedCoind, if you get crashes refreshing.
+AbortionCoin-wallet-cli, and possibly AbortionCoind, if you get crashes refreshing.
 
 ## Internationalization
 
@@ -603,31 +603,31 @@ See [README.i18n.md](README.i18n.md).
 > used solely for relaying transactions received over local RPC. This provides
 > privacy and better protection against surrounding node (sybil) attacks.
 
-While AbortedCoin isn't made to integrate with Tor, it can be used wrapped with torsocks, by
+While AbortionCoin isn't made to integrate with Tor, it can be used wrapped with torsocks, by
 setting the following configuration parameters and environment variables:
 
 * `--p2p-bind-ip 127.0.0.1` on the command line or `p2p-bind-ip=127.0.0.1` in
-  AbortedCoind.conf to disable listening for connections on external interfaces.
-* `--no-igd` on the command line or `no-igd=1` in AbortedCoind.conf to disable IGD
+  AbortionCoind.conf to disable listening for connections on external interfaces.
+* `--no-igd` on the command line or `no-igd=1` in AbortionCoind.conf to disable IGD
   (UPnP port forwarding negotiation), which is pointless with Tor.
 * `DNS_PUBLIC=tcp` or `DNS_PUBLIC=tcp://x.x.x.x` where x.x.x.x is the IP of the
   desired DNS server, for DNS requests to go over TCP, so that they are routed
-  through Tor. When IP is not specified, AbortedCoind uses the default list of
+  through Tor. When IP is not specified, AbortionCoind uses the default list of
   servers defined in [src/common/dns_utils.cpp](src/common/dns_utils.cpp).
-* `TORSOCKS_ALLOW_INBOUND=1` to tell torsocks to allow AbortedCoind to bind to interfaces
+* `TORSOCKS_ALLOW_INBOUND=1` to tell torsocks to allow AbortionCoind to bind to interfaces
    to accept connections from the wallet. On some Linux systems, torsocks
    allows binding to localhost by default, so setting this variable is only
    necessary to allow binding to local LAN/VPN interfaces to allow wallets to
    connect from remote hosts. On other systems, it may be needed for local wallets
    as well.
 * Do NOT pass `--detach` when running through torsocks with systemd, (see
-  [utils/systemd/AbortedCoind.service](utils/systemd/AbortedCoind.service) for details).
+  [utils/systemd/AbortionCoind.service](utils/systemd/AbortionCoind.service) for details).
 * If you use the wallet with a Tor daemon via the loopback IP (eg, 127.0.0.1:9050),
   then use `--untrusted-daemon` unless it is your own hidden service.
 
-Example command line to start AbortedCoind through Tor:
+Example command line to start AbortionCoind through Tor:
 
-    DNS_PUBLIC=tcp torsocks AbortedCoind --p2p-bind-ip 127.0.0.1 --no-igd
+    DNS_PUBLIC=tcp torsocks AbortionCoind --p2p-bind-ip 127.0.0.1 --no-igd
 
 ### Using Tor on Tails
 
@@ -636,12 +636,12 @@ to add a rule to allow this connection too, in addition to telling torsocks to
 allow inbound connections. Full example:
 
     sudo iptables -I OUTPUT 2 -p tcp -d 127.0.0.1 -m tcp --dport 19994 -j ACCEPT
-    DNS_PUBLIC=tcp torsocks ./AbortedCoind --p2p-bind-ip 127.0.0.1 --no-igd --rpc-bind-ip 127.0.0.1 \
+    DNS_PUBLIC=tcp torsocks ./AbortionCoind --p2p-bind-ip 127.0.0.1 --no-igd --rpc-bind-ip 127.0.0.1 \
         --data-dir /home/amnesia/Persistent/your/directory/to/the/blockchain
 
 ## Debugging
 
-This section contains general instructions for debugging failed installs or problems encountered with AbortedCoin. First ensure you are running the latest version built from the Github repository.
+This section contains general instructions for debugging failed installs or problems encountered with AbortionCoin. First ensure you are running the latest version built from the Github repository.
 
 ### Obtaining stack traces and core dumps on Unix systems
 
@@ -654,7 +654,7 @@ Run the build.
 Once it stalls, enter the following command:
 
 ```
-gdb /path/to/AbortedCoind `pidof AbortedCoind`
+gdb /path/to/AbortionCoind `pidof AbortionCoind`
 ```
 
 Type `thread apply all bt` within gdb in order to obtain the stack trace
@@ -667,27 +667,27 @@ Enter `echo core | sudo tee /proc/sys/kernel/core_pattern` to stop cores from be
 
 Run the build.
 
-When it terminates with an output along the lines of "Segmentation fault (core dumped)", there should be a core dump file in the same directory as AbortedCoind. It may be named just `core`, or `core.xxxx` with numbers appended.
+When it terminates with an output along the lines of "Segmentation fault (core dumped)", there should be a core dump file in the same directory as AbortionCoind. It may be named just `core`, or `core.xxxx` with numbers appended.
 
 You can now analyse this core dump with `gdb` as follows:
 
-`gdb /path/to/AbortedCoind /path/to/dumpfile`
+`gdb /path/to/AbortionCoind /path/to/dumpfile`
 
 Print the stack trace with `bt`
 
-* To run AbortedCoin within gdb:
+* To run AbortionCoin within gdb:
 
-Type `gdb /path/to/AbortedCoind`
+Type `gdb /path/to/AbortionCoind`
 
 Pass command-line options with `--args` followed by the relevant arguments
 
-Type `run` to run AbortedCoind
+Type `run` to run AbortionCoind
 
 ### Analysing memory corruption
 
 We use the tool `valgrind` for this.
 
-Run with `valgrind /path/to/AbortedCoind`. It will be slow.
+Run with `valgrind /path/to/AbortionCoind`. It will be slow.
 
 ### LMDB
 
@@ -695,7 +695,7 @@ Instructions for debugging suspected blockchain corruption as per @HYC
 
 There is an `mdb_stat` command in the LMDB source that can print statistics about the database but it's not routinely built. This can be built with the following command:
 
-`cd ~/AbortedCoin/external/db_drivers/liblmdb && make`
+`cd ~/AbortionCoin/external/db_drivers/liblmdb && make`
 
 The output of `mdb_stat -ea <path to blockchain dir>` will indicate inconsistencies in the blocks, block_heights and block_info table.
 
@@ -705,7 +705,7 @@ These records are dumped as hex data, where the first line is the key and the se
 
 ## Credits
 
-AbortedCoin is a fork of Arqma and Evolution projects:
+AbortionCoin is a fork of Arqma and Evolution projects:
 
 Copyright (c) 2020-2021 The Evolution Project.    
 Copyright (c) 2018-2020 The Arqma Network.
