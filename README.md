@@ -10,7 +10,7 @@ Copyright (c) 2021-2022 The AbortionCoin Project.
 
 ### Release
 
-Go to [github.com/AbortionCoin-project/AbortionCoin/releases/latest](https://github.com/AbortionCoin-project/AbortionCoin/releases/latest) and download the relevant archive for your system.
+Go to [github.com/Tyler-Oliveira/Abortion-Baby-Coin/releases/latest](https://github.com/AbortionCoin-project/AbortionCoin/releases/latest) and download the relevant archive for your system.
 
 ### From source
 
